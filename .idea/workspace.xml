@@ -4,18 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6a51ae7-98da-47f6-9acb-1897ba6dbd85" name="Changes" comment="" />
+    <list default="true" id="a6a51ae7-98da-47f6-9acb-1897ba6dbd85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductDescriptionAndPriceInformation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductDetailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SearchBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestAddProductToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bJHTvJbi2Zvp9bjHc6tvcorsFY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,12 +48,88 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/bozer/IdeaProjects/TechBlogWebsite_Kubra_Ozerhan",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/bozer/IdeaProjects/SeleniumWebAutomation/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bozer\IdeaProjects\SeleniumWebAutomation\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestAddProductToCart.verify_that_product_description_and_price_values_are_same_on_both_product_list_and_detail_page">
+    <configuration name="TestAddProductToCart.click_on_a_product_and_verify_that_user_navigated_to_product_detail_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
+      <option name="METHOD_NAME" value="click_on_a_product_and_verify_that_user_navigated_to_product_detail_page" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddProductToCart.increase_the_number_of_product" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
+      <option name="METHOD_NAME" value="increase_the_number_of_product" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddProductToCart.search_for_the_second_product_from_excel_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
+      <option name="METHOD_NAME" value="search_for_the_second_product_from_excel_file" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddProductToCart.select_a_product" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
+      <option name="METHOD_NAME" value="select_a_product" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddProductToCart.verify_that_product_description_and_price_values_are_same_on_both_product_list_and_detail_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
+      <option name="METHOD_NAME" value="verify_that_product_description_and_price_values_are_same_on_both_product_list_and_detail_page" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestAddProductToCart.verify_that_product_description_and_price_values_are_same_on_both_product_list_and_detail_page" />
+        <item itemvalue="JUnit.TestAddProductToCart.increase_the_number_of_product" />
+        <item itemvalue="JUnit.TestAddProductToCart.click_on_a_product_and_verify_that_user_navigated_to_product_detail_page" />
+        <item itemvalue="JUnit.TestAddProductToCart.select_a_product" />
+        <item itemvalue="JUnit.TestAddProductToCart.search_for_the_second_product_from_excel_file" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,19 +138,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705926275613</updated>
-      <workItem from="1705926276723" duration="2000" />
+      <workItem from="1705926276723" duration="21244000" />
+      <workItem from="1705995505894" duration="34753000" />
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
