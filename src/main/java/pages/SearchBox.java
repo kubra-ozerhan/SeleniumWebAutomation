@@ -16,6 +16,7 @@ import java.io.IOException;
 public class SearchBox extends BasePage{
     // Locators
     By searchBoxLocator = By.xpath("//div[@class='o-header__search--wrapper']//input[@class='o-header__search--input']");
+    By searchBoxSuggestionInputLocator = By.xpath("//div[@class='o-header__search--wrapper']//input[@name='qSugesstion']");
     By clearSearchedProductLocator = By.xpath("//button[@class='o-header__search--close -hasButton']");
 
     // constructor
@@ -39,13 +40,14 @@ public class SearchBox extends BasePage{
             // then type the value [0,0] into search bar
             type(searchBoxLocator, value);
         }
-
+        Thread.sleep(1000);
     }
 
     public void deleteTheProductFromTheSearchBar() throws InterruptedException {
         // by clicking the clean button in the search bar, clean the searhed product
         Thread.sleep(2);
         click(clearSearchedProductLocator);
+        Thread.sleep(1000);
     }
 
     public void searchTheSecondProductFromExcelFile() throws InterruptedException, IOException {
@@ -57,14 +59,14 @@ public class SearchBox extends BasePage{
         int columnIndex = 1;
         String value = data.get(rowIndex).get(columnIndex);
 
-        Thread.sleep(2);
+        Thread.sleep(100);
         // check if seachbox is diplayed
-        if (isDisplayed(searchBoxLocator)){
+        if (isDisplayed(searchBoxSuggestionInputLocator)){
             Thread.sleep(2);
             // then send the value [0,1] into search bar and press enter
-            find(searchBoxLocator).sendKeys(value, Keys.ENTER);
+            find(searchBoxSuggestionInputLocator).sendKeys(value, Keys.ENTER);
         }
-        Thread.sleep(500);
+        Thread.sleep(10);
     }
 
     public static List<List<String>>  readExcel() throws IOException {

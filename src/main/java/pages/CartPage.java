@@ -63,7 +63,7 @@ public class CartPage extends BasePage{
         String newPriceOnTheCartPage = removeFractionFromPriceValueOnTheCartPage(priceOnTheCartPage);
 
         // Print the price values on the cart page and product page
-        System.out.println("priceOnTheFile is" + priceOnTheFile + "priceOnTheCartPage is" + priceOnTheCartPage);
+        System.out.println("priceOnTheFile is " + priceOnTheFile + "priceOnTheCartPage is " + priceOnTheCartPage + "***************");
 
         // return a boolean value according to given comparisons
         return priceOnTheFile.equals(newPriceOnTheCartPage) && productInfoOnTheFile.equals(productInfoOnTheCartPage);

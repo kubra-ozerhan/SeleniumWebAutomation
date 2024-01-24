@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6a51ae7-98da-47f6-9acb-1897ba6dbd85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logger/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testlogger/TestResultLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductDescriptionAndPriceInformation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductDescriptionAndPriceInformation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductDetailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestAddProductToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestAddProductToCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,21 +75,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddProductToCart.add_a_product_into_cart_and_check_its_description_and_price_on_the_cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddProductToCart.fill_in_the_search_bar_with_the_products_from_excel_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
-      <option name="METHOD_NAME" value="add_a_product_into_cart_and_check_its_description_and_price_on_the_cart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAddProductToCart.increase_the_number_of_product_and_verify_that_product_count_is_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
-      <option name="METHOD_NAME" value="increase_the_number_of_product_and_verify_that_product_count_is_2" />
+      <option name="METHOD_NAME" value="fill_in_the_search_bar_with_the_products_from_excel_file" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +95,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddProductToCart.remove_the_product_from_cart_and_verify_that_cart_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddProductToCart.search_for_products_from_excel_file_and_verify_that_user_navigated_to_product_detail_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
-      <option name="METHOD_NAME" value="remove_the_product_from_cart_and_verify_that_cart_is_empty" />
+      <option name="METHOD_NAME" value="search_for_products_from_excel_file_and_verify_that_user_navigated_to_product_detail_page" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddProductToCart.search_for_the_second_product_from_excel_file_and_verify_products_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
+      <option name="METHOD_NAME" value="search_for_the_second_product_from_excel_file_and_verify_products_list" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,10 +118,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestAddProductToCart" />
-        <item itemvalue="JUnit.TestAddProductToCart.remove_the_product_from_cart_and_verify_that_cart_is_empty" />
+        <item itemvalue="JUnit.TestAddProductToCart.search_for_the_second_product_from_excel_file_and_verify_products_list" />
+        <item itemvalue="JUnit.TestAddProductToCart.search_for_products_from_excel_file_and_verify_that_user_navigated_to_product_detail_page" />
+        <item itemvalue="JUnit.TestAddProductToCart.fill_in_the_search_bar_with_the_products_from_excel_file" />
         <item itemvalue="JUnit.TestAddProductToCart.navigate_to_Beymen_home_page_and_verify_that_campaigns_are_shown" />
-        <item itemvalue="JUnit.TestAddProductToCart.increase_the_number_of_product_and_verify_that_product_count_is_2" />
-        <item itemvalue="JUnit.TestAddProductToCart.add_a_product_into_cart_and_check_its_description_and_price_on_the_cart" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +135,7 @@
       <updated>1705926275613</updated>
       <workItem from="1705926276723" duration="21244000" />
       <workItem from="1705995505894" duration="35005000" />
-      <workItem from="1706085510189" duration="18696000" />
+      <workItem from="1706085510189" duration="26047000" />
     </task>
     <servers />
   </component>

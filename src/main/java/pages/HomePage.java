@@ -42,7 +42,7 @@ public class HomePage  extends BasePage{
     public void closeSelectingGenderBox() throws InterruptedException {
         // if close icon appears on the selecting gender box
         if (isDisplayed(closeIconLocator)){
-            Thread.sleep(10);
+            Thread.sleep(50);
             // click close icon
             click(closeIconLocator);
         }

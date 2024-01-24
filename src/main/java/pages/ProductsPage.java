@@ -15,6 +15,7 @@ public class ProductsPage  extends BasePage{
     By productsListTitleLocator = By.id("productListTitle");
     By productDescriptionLocator = By.xpath("//span[@class='m-productCard__desc']");
     By productPriceLocator = By.xpath("//span[@class='m-productCard__newPrice']");
+    By searchSuggestionsLocator = By.xpath("//div[@class='o-searchSuggestion__tab']");
 
     // constructor
     public ProductsPage(WebDriver driver) {
@@ -22,9 +23,14 @@ public class ProductsPage  extends BasePage{
     }
 
     public Boolean isOnProductsPage() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(5);
         // check if product list title is shown to verify being in the product list page and return a boolean value
         return isDisplayed(productsListTitleLocator);
+    }
+    public Boolean isSearchSuggestionsVisible() throws InterruptedException {
+        Thread.sleep(5);
+        // check if product list title is shown to verify being in the product list page and return a boolean value
+        return isDisplayed(searchSuggestionsLocator);
     }
     public void clickOnProduct(int i) throws InterruptedException {
         // Get all product descriptions

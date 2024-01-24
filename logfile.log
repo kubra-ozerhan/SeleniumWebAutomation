@@ -1,0 +1,7 @@
+2024-01-24 22:54:31,144 INFO  [Log] navigate_to_Beymen_home_page_and_verify_that_campaigns_are_shown() PASSED 
+2024-01-24 22:54:34,224 INFO  [Log] fill_in_the_search_bar_with_the_first_product_from_excel_file_then_clean_without_searching() PASSED 
+2024-01-24 22:54:37,398 INFO  [Log] search_for_the_second_product_from_excel_file_and_verify_products_list() PASSED 
+2024-01-24 22:54:43,467 INFO  [Log] click_on_a_product_and_verify_that_user_navigated_to_product_detail_page() PASSED 
+2024-01-24 22:54:58,419 INFO  [Log] add_a_product_into_cart_and_check_its_description_and_price_on_the_cart() PASSED 
+2024-01-24 22:55:08,831 INFO  [Log] increase_the_number_of_product_and_verify_that_product_count_is_2() PASSED 
+2024-01-24 22:55:19,153 INFO  [Log] remove_the_product_from_cart_and_verify_that_cart_is_empty() PASSED 
