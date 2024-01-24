@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6a51ae7-98da-47f6-9acb-1897ba6dbd85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProductDescriptionAndPriceInformation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProductDetailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestAddProductToCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductDescriptionAndPriceInformation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductDescriptionAndPriceInformation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductDetailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestAddProductToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestAddProductToCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/bozer/IdeaProjects/TechBlogWebsite_Kubra_Ozerhan",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/bozer/IdeaProjects/SeleniumWebAutomation/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bozer/IdeaProjects/TechBlogWebsite_Kubra_Ozerhan&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/bozer/IdeaProjects/SeleniumWebAutomation/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -69,52 +64,51 @@
       <recent name="C:\Users\bozer\IdeaProjects\SeleniumWebAutomation\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAddProductToCart.verify_that_product_description_and_price_values_are_same_on_both_product_list_and_detail_page">
-    <configuration name="TestAddProductToCart.click_on_a_product_and_verify_that_user_navigated_to_product_detail_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestAddProductToCart">
+    <configuration name="TestAddProductToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
-      <option name="METHOD_NAME" value="click_on_a_product_and_verify_that_user_navigated_to_product_detail_page" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddProductToCart.add_a_product_into_cart_and_check_its_description_and_price_on_the_cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
+      <option name="METHOD_NAME" value="add_a_product_into_cart_and_check_its_description_and_price_on_the_cart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddProductToCart.increase_the_number_of_product" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddProductToCart.increase_the_number_of_product_and_verify_that_product_count_is_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
-      <option name="METHOD_NAME" value="increase_the_number_of_product" />
+      <option name="METHOD_NAME" value="increase_the_number_of_product_and_verify_that_product_count_is_2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddProductToCart.search_for_the_second_product_from_excel_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddProductToCart.navigate_to_Beymen_home_page_and_verify_that_campaigns_are_shown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
-      <option name="METHOD_NAME" value="search_for_the_second_product_from_excel_file" />
+      <option name="METHOD_NAME" value="navigate_to_Beymen_home_page_and_verify_that_campaigns_are_shown" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddProductToCart.select_a_product" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddProductToCart.remove_the_product_from_cart_and_verify_that_cart_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
-      <option name="METHOD_NAME" value="select_a_product" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAddProductToCart.verify_that_product_description_and_price_values_are_same_on_both_product_list_and_detail_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestAddProductToCart" />
-      <option name="METHOD_NAME" value="verify_that_product_description_and_price_values_are_same_on_both_product_list_and_detail_page" />
+      <option name="METHOD_NAME" value="remove_the_product_from_cart_and_verify_that_cart_is_empty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAddProductToCart.verify_that_product_description_and_price_values_are_same_on_both_product_list_and_detail_page" />
-        <item itemvalue="JUnit.TestAddProductToCart.increase_the_number_of_product" />
-        <item itemvalue="JUnit.TestAddProductToCart.click_on_a_product_and_verify_that_user_navigated_to_product_detail_page" />
-        <item itemvalue="JUnit.TestAddProductToCart.select_a_product" />
-        <item itemvalue="JUnit.TestAddProductToCart.search_for_the_second_product_from_excel_file" />
+        <item itemvalue="JUnit.TestAddProductToCart" />
+        <item itemvalue="JUnit.TestAddProductToCart.remove_the_product_from_cart_and_verify_that_cart_is_empty" />
+        <item itemvalue="JUnit.TestAddProductToCart.navigate_to_Beymen_home_page_and_verify_that_campaigns_are_shown" />
+        <item itemvalue="JUnit.TestAddProductToCart.increase_the_number_of_product_and_verify_that_product_count_is_2" />
+        <item itemvalue="JUnit.TestAddProductToCart.add_a_product_into_cart_and_check_its_description_and_price_on_the_cart" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +133,8 @@
       <option name="presentableId" value="Default" />
       <updated>1705926275613</updated>
       <workItem from="1705926276723" duration="21244000" />
-      <workItem from="1705995505894" duration="34753000" />
+      <workItem from="1705995505894" duration="35005000" />
+      <workItem from="1706085510189" duration="18696000" />
     </task>
     <servers />
   </component>
